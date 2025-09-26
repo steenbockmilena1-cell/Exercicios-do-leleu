@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*Corpo do texto*/
+body{
+    font-family: sans-serif;
+}
+ 
+/*Cbeçalho*/
+.soPequeno{
+    display: none;
+}
+ 
+.soMedio{
+    display: none;
+}
+ 
+.soGrande{
+    display: none;
+}
+ 
+article{
+    width: 90%;
+    float: none;
+    margin: auto;
+}
+ 
+/*imagem*/
+article img{
+    max-width: 100%;
+}
+ 
+/*corpo do texto*/
+p{
+    font-size: 1.2em8;
+}
+ 

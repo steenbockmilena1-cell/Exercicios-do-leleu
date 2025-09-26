@@ -1,0 +1,28 @@
+@charset "utf-8";
+ 
+ 
+/*Cbeçalho*/
+.soPequeno{
+    display: none;
+}
+ 
+.soMedio{
+    display: block;
+}
+ 
+.soGrande{
+    display: none;
+}
+ 
+article{
+    width: 44.9%;
+    float: left;
+    margin: auto 2.5px;
+    padding-bottom: 30px;
+}
+ 
+article:last-of-type{
+    width: 94.9%;
+    float: none;
+    margin: auto;
+}

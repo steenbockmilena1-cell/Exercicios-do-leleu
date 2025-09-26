@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário organizado</title>
+</head>
+<style>
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: right;
+    color: #909;
+    border-bottom: solid #909 2px;
+}
+img{
+    float: left;
+}
+fieldset{
+    border: solid #fcc;
+}
+label{
+display: inline-block;
+width: 60px;
+}
+input,textarea{
+    background-color: #fcc;
+    border-style: none;
+}
+input[type= "text"]
+input[type= "password"]
+input[type= "email"]
+
+textarea{
+    width: 80%;
+    }
+    input[type= "submit"]
+   {width: 200px;}
+</style>
+<body>
+        <h1>Dados da conta</h1>
+        <img src="form.jpg" alt="Formulário">
+    <form action="">
+        <input type="hidden">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+ 
+            <div>
+                <label for="Nome:">Nome:</label>
+                <input type="text" name="Nome:" id="Nome:">
+            </div>
+            <br>
+            <div>
+                <label for="Emeil:">Emeil:</label>
+                <input type="email" name="Emeil:" id="Emeil:">
+            </div>
+        </fieldset>
+ 
+        <fieldset>
+            <legend>Dados da conto</legend>
+ 
+            <div>
+                <label for="Senha:">Senha:</label>
+                <input type="password" name="Senha:" id="Senha:">
+            
+            </div>
+            <br>
+            <div>
+                <label for="frase">Frase opcional</label>
+                <textarea name="Frase" id="Frase"></textarea>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="enviar">
+        </div>
+    </form>
+    
+</body>
+</html>
